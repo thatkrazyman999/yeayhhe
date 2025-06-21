@@ -7,21 +7,22 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      padding: 2rem;
       background-color: #f9f9f9;
+      padding: 2rem;
       text-align: center;
     }
     .download-btn {
       background-color: #007bff;
       color: white;
-      padding: 15px 30px;
-      font-size: 20px;
+      padding: 15px 40px;
+      font-size: 22px;
       border: none;
       border-radius: 8px;
-      text-decoration: none;
       cursor: pointer;
+      text-decoration: none;
       display: inline-block;
       transition: background-color 0.3s ease;
+      user-select: none;
     }
     .download-btn:hover {
       background-color: #0056b3;
@@ -30,7 +31,7 @@
 </head>
 <body>
   <h1>Download the Video</h1>
-  <!-- Use the relative path to your video file in the repo -->
+  <p>Click the button below to download the video file (zipped to force download).</p>
   <a href="myvideo.mp4" download class="download-btn">Download Video</a>
 </body>
 </html>
